@@ -1,0 +1,24 @@
+{
+  "name": "bower-ebike-services",
+  "version": "1.0.0",
+  "description": "ebike services base on loopback.io angularjs sdk",
+  "main": "ebike-services.js",
+  "dependencies": {
+    "gulp": "^3.8.11",
+    "gulp-rename": "^1.2.0",
+    "gulp-loopback-sdk-angular": "^0.1.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-loopback-sdk-angular": "^0.1.3",
+    "gulp-rename": "^1.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ebike"
+  ],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "ebike-services",
+  "version": "0.0.1",
+  "authors": [
+    "Guan Bo <guanbo2002@gmail.com>"
+  ],
+  "description": "ebike service is loopback angularjs sdk",
+  "main": "ebike-services.js",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "ebike"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
