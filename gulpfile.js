@@ -4,7 +4,7 @@ var loopbackAngular = require('gulp-loopback-sdk-angular');
 
 gulp.task('build', function () {
   return gulp.src('../../../../ebike-backend/server/server.js')
-    .pipe(loopbackAngular({apiUrl:'http://0.0.0.0:3000/api'}))
+    .pipe(loopbackAngular({apiUrl:'https://api.baoxu360.com/api'}))
     .pipe(rename('ebike-lbservices.js'))
     .pipe(gulp.dest('./'));
 })
