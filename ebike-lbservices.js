@@ -13,7 +13,7 @@ if (typeof module !== 'undefined' && typeof exports !== 'undefined' &&
 (function(window, angular, undefined) {
   'use strict';
 
-  var urlBase = "https://api.baoxu360.com/api";
+  var urlBase = "https://bx.minfan.pw/api";
   var authHeader = 'authorization';
 
   function getHost(url) {
